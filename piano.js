@@ -1,7 +1,7 @@
 (function() {
 	var audioCtx = new AudioContext();
 
-	var fullBeatTime = 2; //全音时间
+	var fullBeatTime = 2.5; //全音时间
 
 	function Paino() {
 
