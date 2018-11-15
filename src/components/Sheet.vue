@@ -26,6 +26,8 @@ export default class Sheet extends Vue {
       () => {
         this.OSMD && this.OSMD.render();
 
+        (window as any).OSMD = this.OSMD;
+
         new Player().play(this.OSMD);
       },
       err => {
